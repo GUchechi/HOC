@@ -14,14 +14,8 @@ const UserList = () => {
 
   return (
     <div>
+    <h1>Users</h1>
     <input type="text" value={term} onChange={(e) => setTerm(e.target.value)} />
-        {/* {
-            users.map((user, index) => (
-                <p key={index}>
-                    <strong>{user.name}</strong>
-                </p>
-            ))
-        } */}
         <div>{filterUsers}</div>
     </div>
   )
